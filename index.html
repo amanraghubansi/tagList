@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Input Tags</title>
+    <link rel="stylesheet" href="tags.css">
+</head>
+
+<body>
+    <p>
+        Enter country code :
+    </p>
+    <div class="tag-container">
+        <input type="text" class="main-input" id="myInput" placeholder="Add a country">
+        <input type="hidden" class="hidden-tags" value="hello!">
+    </div>
+    <div id="autocomplete-container" style="width:300px;">
+    </div>
+    <div class="selected-list">
+        <pre id="selected-list"></pre>
+    </div>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
